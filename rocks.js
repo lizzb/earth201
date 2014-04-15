@@ -1,4 +1,603 @@
 /*
+MINERALS
+
+<!--
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/
+img 1 = img main
+oter 2 are alt
+
+#4 - Quartz
+breaking the sample resulted in 0 cleavage direction and conchoidal fracture
+
+8 - Apatite	
+5 - Corundum	
+Garnet	
+13 - Hematite	
+12 - Olivine	
+4 - Quartz
+Augite	
+Dolomite	
+Graphite	
+15 - Hornblende	
+9 - Orthoclase	
+Sulfur
+Biotite	
+14 - Fluorite	
+1 - Gypsum	
+7 - Magnetite	
+6 - Plagioclase	
+Talc
+Calcite	
+Galena	
+10 - Halite	
+11 - Muscovite	
+3 - Pyrite
+
+
+1 - Gypsum
+3 - Pyrite
+4 - Quartz
+5 - Corundum
+6 - Plagioclase	
+7 - Magnetite	
+8 - Apatite
+9 - Orthoclase	
+10 - Halite
+11 - Muscovite
+12 - Olivine
+13 - Hematite	
+14 - Fluorite
+15 - Hornblende
+16 - Galena
+17 - Calcite
+18 - Augite
+19 - Biotite
+20 - Talc
+
+Garnet	
+Dolomite	
+Graphite
+Sulfur
+
+
+{
+	"sampleID": 0,
+	mineralName: "",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": ""
+},
+{
+	"sampleID": 1,
+	mineralName: "Gypsum",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min01b.jpg",
+	"img2": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min01a.jpg",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min01.htm"
+},
+{
+	"sampleID": 2,
+	mineralName: "",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min02b.jpg",
+	"img2": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min02a.jpg",
+	"img3": "",
+	"url": ""
+},
+{
+	"sampleID": 3,
+	mineralName: "Pyrite",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min03b.jpg",
+	"img2": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min03a.jpg",
+	"img3": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min03c.jpg".
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min03.htm"
+},
+{
+	"sampleID": 4,
+	mineralName: "Quartz",
+	"color": "clear",
+	streak: "white",
+	cleavage: "0",
+	crystalForm: "hexagonal",
+	fracture: "conchoidal",
+	hardness: 7,
+	luster: "non-metallic",
+	other: "none",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min04b.jpg",
+	"img2": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min04a.jpg",
+	"img3": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min04bb.jpg".
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min04.htm"
+},
+{
+	"sampleID": 5,
+	mineralName: "Corundum",
+	"color": "pink",
+	streak: "white",
+	cleavage: "0",
+	crystalForm: "hexagonal",
+	fracture: "conchoidal",
+	hardness: 9,
+	luster: "non-metallic",
+	other: "none",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min05b.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min05.htm"
+},
+{
+	"sampleID": 6,
+	mineralName: "Plagioglase",
+	"color": "white",
+	streak: "white",
+	cleavage: "2",
+	crystalForm: "not present",
+	fracture: "irregular",
+	hardness: 6,
+	luster: "non-metallic",
+	other: "none N/A",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min06b.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min06.htm"
+},
+{
+	"sampleID": 7,
+	mineralName: "Magnetite",
+	"color": "grey",
+	streak: "gray",
+	cleavage: "0",
+	crystalForm: "not present",
+	fracture: "irregular",
+	hardness: 6,
+	luster: "Metallic",
+	other: "magnetic",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min07b.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min07.htm"
+},
+{
+	"sampleID": 8,
+	mineralName: "Apatite",
+	"color": "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	luster: "",
+	other: "none",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min08b.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min08.htm"
+},
+{
+	"sampleID": 9,
+	mineralName: "Orthoclase",
+	"color": "pink",
+	streak: "white",
+	cleavage: "2",
+	crystalForm: "not present",
+	fracture: "irregular",
+	hardness: 6,
+	luster: "non-metallic",
+	other: "none",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Images/Min09b.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min09.htm"
+},
+{
+	"sampleID": 10,
+	mineralName: "Halite",
+	"color": "clear",
+	luster: "non-metallic",
+	streak: "white",
+	cleavage: "3",
+	crystalForm: "cubic",
+	fracture: "conchoidal",
+	hardness: 2,
+	other: "salty taste",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min10.htm"
+},
+{
+	"sampleID": 11,
+	mineralName: "Muscovite",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min11.htm"
+},
+{
+	"sampleID": 12,
+	mineralName: "Olivine",
+	"color": "green",
+	luster: "non-metallic",
+	streak: "white",
+	cleavage: "none/0",
+	crystalForm: "none/not present",
+	fracture: "conchoidal",
+	hardness: 7,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": ""
+},
+{
+	"sampleID": 13,
+	mineralName: "Hematite",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min13.htm"
+},
+
+{
+	"sampleID": 14,
+	mineralName: "Fluorite",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min14.htm"
+},
+{
+	"sampleID": 15,
+	mineralName: "Hornblende",
+	"color": "green",
+	luster: "non-metallic",
+	streak: "white",
+	cleavage: "2",
+	crystalForm: "not present",
+	fracture: "irregular",
+	hardness: 5,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min15.htm"
+},
+{
+	"sampleID": 16,
+	mineralName: "Galena",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min16.htm"
+},
+{
+	"sampleID": 17,
+	mineralName: "Calcite",
+	"color": "",
+	luster: "",
+	streak: "",
+	cleavage: "",
+	crystalForm: "",
+	fracture: "",
+	hardness: 0,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min17.htm"
+},
+{
+	"sampleID": 18,
+	mineralName: "Augite",
+	"color": "green",
+	luster: "non-metallic",
+	streak: "white",
+	cleavage: "2",
+	crystalForm: "not present",
+	fracture: "irregular",
+	hardness: 5,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min18.htm"
+},
+{
+	"sampleID": 19,
+	mineralName: "Biotite",
+	"color": "black",
+	luster: "",
+	streak: "green",
+	cleavage: "1",
+	crystalForm: "not present",
+	fracture: "irregular",
+	hardness: 3,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": ""
+},
+{
+	"sampleID": 20,
+	mineralName: "Talc",
+	"color": "gray",
+	luster: "non-metallic",
+	streak: "white",
+	cleavage: "1",
+	crystalForm: "not present",
+	fracture: "irregular",
+	hardness: 1,
+	other: "none",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/minerals/Min20.htm"
+}
+
+
+#19 - 
+Green or clear? color
+Answers
+Color	
+Streak	gray (gray-green or gray-brown)
+
+
+
+-->
+
+
+
+
+*/
+
+/*
+IGNEOUS 
+
+
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/index.htm
+additional image, close ups too
+{
+	"sampleID": 0,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	img0: "",
+	"img1": "",
+	"img2": "",
+	"img3": "",
+	"url": ""
+},
+
+12 samples
+1 Basalt
+2 Diorite
+3 Dunite
+4
+5
+6
+7
+8
+9
+0
+10
+........
+
+{
+	"sampleID": 1,
+	"igneousRockName": "Basalt",
+	"color": "",
+	"composition": "Mafic",
+	"texture": "Aphanitic",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/ign01.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup01.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp01.htm"
+},
+{
+	"sampleID": 2,
+	"igneousRockName": "Diorite",
+	"color": "",
+	"composition": "Intermediate",
+	"texture": "Phaneritic",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/ign02a.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup02.jpg",
+	"img2": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Ign02.jpg",
+	"img2close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup02a.jpg",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp02.htm"
+},
+{
+	"sampleID": 3,
+	"igneousRockName": "Dunite",
+	"color": "",
+	"composition": "Ultramafic",
+	"texture": "Phaneritic",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/ign03.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup03.jpg",
+	"img2": "",
+	"img2close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup03a.jpg",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp03.htm"
+},
+{
+	"sampleID": 4,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "",
+	"img1close": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp04.htm"
+},
+{
+	"sampleID": 5,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "",
+	"img1close": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp05.htm"
+},
+{
+	"sampleID": 6,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "",
+	"img1close": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp06.htm"
+},
+{
+	"sampleID": 7,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "",
+	"img1close": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp07.htm"
+},
+{
+	"sampleID": 8,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "",
+	"img1close": "",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp08.htm"
+},
+{
+	"sampleID": 9,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/ign09.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup09.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp09.htm"
+},
+{
+	"sampleID": 10,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/ign10a.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup10.jpg",
+	"img2": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/ign10.jpg",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp10.htm"
+},
+{
+	"sampleID": 11,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/ign11.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup11.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp11.htm"
+},
+{
+	"sampleID": 12,
+	"igneousRockName": "",
+	"color": "",
+	"texture": "",
+	"composition": "",
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/ign12.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Images/Closeup12.jpg",
+	"img2": "",
+	"img3": "",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/Igsamp12.htm"
+},
+*/
+
+
+
+/*
 http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Texture.htm#Clastic
 
 http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Texture.htm#Silt
@@ -199,5 +798,141 @@ var sedimentaryRocks = [
 	"grainSize": "",
 	"composition": ["", ""]
 },
+*/
+
+/*
+
+<!--
+SEDIMENTARY - http://faculty.icc.edu/easc111lab/labs/labb/bsedimentary.html
+
+Coquina limestone
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock40.jpg
+
+Conglomerate
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock48.jpg
+
+Crystalline limestone
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock53.jpg
+
+Shale
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock46.jpg
+
+Sandstone
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock54.jpg
+
+Bituminous Coal
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock70.jpg
+
+
+Metamorphic - http://faculty.icc.edu/easc111lab/labs/labb/bmetamorphic.html
+
+Gneiss
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock55.jpg
+
+Marble
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock44.jpg
+
+Mica Schist
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock52.jpg
+
+Quartzite
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock50.jpg
+
+Slate
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock43.jpg
+
+
+
+
+IGNEOUS ROCKS - http://faculty.icc.edu/easc111lab/labs/labb/bigneous.html
+
+Basalt
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock42.jpg
+
+Granite
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock41.jpg
+
+Granite Porphyry
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock56.jpg
+
+Pumice
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock47.jpg
+
+Obsidian
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock49.jpg
+
+Rhyolite - water rich
+http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock57.jpg
+
+
+
+
+MINERALS - http://faculty.icc.edu/easc111lab/labs/labb/bminerals.html
+
+
+Feldspar
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock5.jpg
+
+Talc
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock4.jpg
+
+Sulfur
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock2.jpg
+
+Pyrite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock1.jpg
+
+Gypsum
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock3.jpg
+
+Calcite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock6.jpg
+
+Hornblende
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock7.jpg
+
+Olivine
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock19.jpg
+
+Mangetite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock16.jpg
+
+Graphite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock13.jpg
+
+Fluorite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock8.jpg
+
+Quartz
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock9.jpg
+
+Quartz
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock10.jpg
+
+Quzrtz
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock15.jpg
+
+Hematite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock17.jpg
+
+Muscovite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock18.jpg
+
+Galena
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock11.jpg
+
+Biotite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock12.jpg
+
+Halite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock14.jpg
+
+Kaolinite
+http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock74.jpg
+-->
+
+
+
+
 */
 
