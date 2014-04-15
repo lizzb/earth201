@@ -10,6 +10,54 @@
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+<style>
+/*
+EXISTING WRAPPER STUFF
+.wrapper {
+  width: 640px;
+  margin: 0 auto;
+  background: #DEDEDE;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+}
+
+@media print, screen and (max-width: 740px) {
+
+  .wrapper {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+  }
+}*/
+
+.wrapper { width: 96%; /*85%;*/}
+@media print, screen and (max-width: 740px) { .wrapper { width: 100%;} }
+
+
+/* most images are already 265 x 330, but a couple are bigger, 300 x 400 
+
+522-1366 = 844*/
+.minerals, .igneous, .sedimentary, .metamorphic {
+	max-width: 265px; /*does this do anything? */
+	width: 265px;
+}
+
+
+</style>
+
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -147,45 +195,45 @@ Typically the large crystals (phenocrysts) are visible while the smaller crystal
 	<h3> MINERALS </h3>
 </a>
 
-<img class=“minerals” alt="Feldspar" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock5.jpg" />
+<img class="icc minerals" alt="Feldspar" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock5.jpg" />
 
-<img class=“minerals” alt="Talc" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock4.jpg" />
+<img class="icc minerals" alt="Talc" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock4.jpg" />
 
-<img class=“minerals” alt="Sulfur" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock2.jpg" />
+<img class="icc minerals" alt="Sulfur" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock2.jpg" />
 
-<img class=“minerals” alt="Pyrite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock1.jpg" />
+<img class="icc minerals" alt="Pyrite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock1.jpg" />
 
-<img class=“minerals” alt="Gypsum" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock3.jpg" />
+<img class="icc minerals" alt="Gypsum" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock3.jpg" />
 
-<img class=“minerals” alt="Calcite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock6.jpg" />
+<img class="icc minerals" alt="Calcite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock6.jpg" />
 
-<img class=“minerals” alt="Hornblende" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock7.jpg" />
+<img class="icc minerals" alt="Hornblende" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock7.jpg" />
 
-<img class=“minerals” alt="Olivine" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock19.jpg" />
+<img class="icc minerals" alt="Olivine" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock19.jpg" />
 
-<img class=“minerals” alt="Magnetite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock16.jpg" />
+<img class="icc minerals" alt="Magnetite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock16.jpg" />
 
-<img class=“minerals” alt="Graphite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock13.jpg" />
+<img class="icc minerals" alt="Graphite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock13.jpg" />
 
-<img class=“minerals” alt="Fluorite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock8.jpg" />
+<img class="icc minerals" alt="Fluorite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock8.jpg" />
 
-<img class=“minerals” alt="Quartz" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock9.jpg" />
+<img class="icc minerals" alt="Quartz" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock9.jpg" />
 
-<img class=“minerals” alt="Quartz" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock10.jpg" />
+<img class="icc minerals" alt="Quartz" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock10.jpg" />
 
-<img class=“minerals” alt="Quartz" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock15.jpg" />
+<img class="icc minerals" alt="Quartz" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock15.jpg" />
 
-<img class=“minerals” alt="Hematite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock17.jpg" />
+<img class="icc minerals" alt="Hematite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock17.jpg" />
 
-<img class=“minerals” alt="Muscovite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock18.jpg" />
+<img class="icc minerals" alt="Muscovite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock18.jpg" />
 
-<img class=“minerals” alt="Galena" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock11.jpg" />
+<img class="icc minerals" alt="Galena" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock11.jpg" />
 
-<img class=“minerals” alt="Biotite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock12.jpg" />
+<img class="icc minerals" alt="Biotite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock12.jpg" />
 
-<img class=“minerals” alt="Halite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock14.jpg" />
+<img class="icc minerals" alt="Halite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock14.jpg" />
 
-<img class=“minerals” alt="Kaolinite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock74.jpg" />
+<img class="icc minerals" alt="Kaolinite" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock74.jpg" />
 
 
 <br/><hr/><br/>
@@ -195,18 +243,20 @@ Typically the large crystals (phenocrysts) are visible while the smaller crystal
 	<h3> IGNEOUS ROCKS </h3>
 </a>
 
-<img class=“igneous” alt="Basalt" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock42.jpg" />
+<img class="icc igneous" alt="Basalt" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock42.jpg" />
 
-<img class=“igneous” alt="Granite" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock41.jpg" />
+<img class="icc igneous"  alt="Granite" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock41.jpg" />
 
-<img class=“igneous” alt="Granite Porphyry" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock56.jpg" />
+<img class="icc igneous"  alt="Granite Porphyry" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock56.jpg" />
 
-<img class=“igneous” alt="Pumice" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock47.jpg" />
+<img class="icc igneous" alt="Pumice" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock47.jpg" />
 
-<img class=“igneous” alt="Obsidian" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock49.jpg" />
+<img class="icc igneous" alt="Obsidian" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock49.jpg" />
+
+<img class="icc igneous" alt="Rhylolite" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock57.jpg" />
 
 Rhyolite - water rich
-<img class=“igneous” alt="Rhylolite" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock57.jpg" />
+
 
 <br/><hr/><br/>
 
@@ -215,17 +265,17 @@ Rhyolite - water rich
 	<h3> Sedimentary </h3>
 </a>
 
-<img class="sedimentary" alt="Coquina limestone" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock40.jpg" />
+<img class="icc sedimentary" alt="Coquina limestone" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock40.jpg" />
 
-<img class="sedimentary" alt="Conglomerate" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock48.jpg" />
+<img class="icc sedimentary" alt="Conglomerate" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock48.jpg" />
 
 <img class="sedimentary" alt="Crystalline limestone" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock53.jpg" />
 
-<img class="sedimentary" alt="Shale" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock46.jpg" />
+<img class="icc sedimentary" alt="Shale" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock46.jpg" />
 
-<img class="sedimentary" alt="Sandstone" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock54.jpg" />
+<img class="icc sedimentary" alt="Sandstone" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock54.jpg" />
 
-<img class="sedimentary" alt="Bituminous Coal" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock70.jpg" />
+<img class="icc sedimentary" alt="Bituminous Coal" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock70.jpg" />
 
 <br/><hr/><br/>
 
@@ -234,15 +284,16 @@ Rhyolite - water rich
 	<h3> Metamorphic </h3>
 </a>
 
-<img class=“metamorphic” alt="Gneiss" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock55.jpg" />
 
-<img class=“metamorphic” alt="Marble" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock44.jpg" />
+<img class="icc metamorphic" alt="Gneiss" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock55.jpg" />
 
-<img class=“metamorphic” alt="Mica Schist" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock52.jpg" />
+<img class="icc metamorphic" alt="Marble" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock44.jpg" />
 
-<img class=“metamorphic” alt="Quartzite" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock50.jpg" />
+<img class="icc metamorphic" alt="Mica Schist" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock52.jpg" />
 
-<img class=“metamorphic” alt="Slate" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock43.jpg" />
+<img class="icc metamorphic" alt="Quartzite" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock50.jpg" />
+
+<img class="icc metamorphic" alt="Slate" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock43.jpg" />
 
 
 <br/><hr/><br/>
