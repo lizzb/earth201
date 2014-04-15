@@ -655,18 +655,19 @@ Biologic Rocks
 Biologic sedimentary rocks are which form as the result of the accumulation of organic material or biologic activity. Coal is usually obvious to most students even though few people seem to have ever actually examined it up close. The dark brown to black color is the most obvious charateristic. Coquina and limestone are both composed of calcite . Coquina is composed almost entirely of shell or fossil fragments. Limestone may or may not contain fossils fragments. Both will react to HCl. Limestone containing fossils is referred to as fossiliferous limestone.
 
 
-1 - Chemical Limestone
-2 - Coquina
-3 - Rock Gypsum ??
-4 - Fossiliferous Limestone
-5 - 
-6 - 
-7 - Rock Gypsum ??
-8 - 
-9 - Chemical Chert
-10 - 
-11 - 
-12 - 
+ 1 - Chemical Limestone (Calcite Chemical texture)
+ 2 - Coquina
+ 3 - [Chemical] Rock Gypsum x2?? (Gypsum Chemical texture )
+ 4 - Fossiliferous Limestone (Biologic calcite with some/fossil texture)
+ 5 - Siltstone (Mudstone, Shale)
+ 6 - Arkose
+ 7 - Rock Gypsum ??
+ 8 - Conglomerate
+ 9 - Chemical Chert (chemical quartz picture)
+10 - Sandstone (clastic 1/16-2 mm, quartz, feldspar example on texture page?? jk)
+11 - Sandstone
+12 - Bituminous Coal (CARBON texture example picture - desnely compatcted organize materials and plant fragments)
+
 // ture if acid if has calcite in it!!
 {
 	"sampleNum": 1,
@@ -720,24 +721,24 @@ Biologic sedimentary rocks are which form as the result of the accumulation of o
 },
 {
 	"sampleNum": 5,
-	"sedimentaryName": "",
-	"texture": "",
-	"grainSize": "",
+	"sedimentaryName": "Siltstone (Mudstone, Shale)",
+	"texture": "Clastic",
+	"grainSize": "< 1/16",
 	"acidReaction": false,
 	"hardness": null,
-	"composition": ["", ""],
+	"composition": ["quartz", "clay minerals"],
 	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed05.jpg",
 	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup05.jpg",
 	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed05.htm"
 },
 {
 	"sampleNum": 6,
-	"sedimentaryName": "",
-	"texture": "",
-	"grainSize": "",
+	"sedimentaryName": "Arkose",
+	"texture": "Clastic",
+	"grainSize": "> 1/16",
 	"acidReaction": false,
 	"hardness": null,
-	"composition": ["", ""],
+	"composition": ["feldspar", "quartz"],
 	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed06.jpg",
 	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup06.jpg",
 	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed06.htm"
@@ -756,12 +757,12 @@ Biologic sedimentary rocks are which form as the result of the accumulation of o
 },
 {
 	"sampleNum": 8,
-	"sedimentaryName": "",
-	"texture": "",
-	"grainSize": "",
+	"sedimentaryName": "Conglomerate",
+	"texture": "Clastic",
+	"grainSize": "> 2 mm",
 	"acidReaction": false,
 	"hardness": null,
-	"composition": ["", ""],
+	"composition": ["rounded quartz", "feldspar", "rock fragments"],
 	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed08.jpg",
 	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup08.jpg",
 	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed08.htm"
@@ -780,36 +781,36 @@ Biologic sedimentary rocks are which form as the result of the accumulation of o
 },
 {
 	"sampleNum": 10,
-	"sedimentaryName": "",
-	"texture": "",
-	"grainSize": "",
+	"sedimentaryName": "Sandstone",
+	"texture": "Clastic",
+	"grainSize": "1/16 - 2 mm",
 	"acidReaction": false,
 	"hardness": null,
-	"composition": ["", ""],
+	"composition": ["quartz", "feldspar"],
 	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed10.jpg",
 	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup10.jpg",
 	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed10.htm"
 },
 {
 	"sampleNum": 11,
-	"sedimentaryName": "",
-	"texture": "",
-	"grainSize": "",
+	"sedimentaryName": "Sandstone",
+	"texture": "Clastic",
+	"grainSize": "1/16 - 2 mm",
 	"acidReaction": false,
 	"hardness": null,
-	"composition": ["", ""],
+	"composition": ["quartz", "feldspar"],
 	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed11.jpg",
 	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup11.jpg",
 	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed11.htm"
 },
 {
 	"sampleNum": 12,
-	"sedimentaryName": "",
-	"texture": "",
-	"grainSize": "",
+	"sedimentaryName": "Bituminous Coal",
+	"texture": "Biologic",
+	"grainSize": "no grain size",
 	"acidReaction": false,
 	"hardness": null,
-	"composition": ["", ""],
+	"composition": ["densely compacted organic material and plant fragments"],
 	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed12.jpg",
 	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup12.jpg",
 	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed12.htm"

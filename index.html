@@ -42,7 +42,7 @@ EXISTING WRAPPER STUFF
   }
 }*/
 
-.wrapper { width: 96%; /*85%;*/}
+.wrapper { width:90%; /*85%;*/}
 @media print, screen and (max-width: 740px) { .wrapper { width: 100%;} }
 
 
@@ -54,11 +54,18 @@ EXISTING WRAPPER STUFF
 	width: 265px;
 }
 
+/* sedimentary = yellow metamorphic = green mineral = blue igneous = red */
+
 
 </style>
 
 <script src="rocks.js"></script>
 
+<script src="/mrjsontable/scripts/mrjsontable.js"></script>
+<link href="/mrjsontable/css/mrjsontable.css" rel="stylesheet" />
+<script src="http://mrjsontable.azurewebsites.net/scripts/jquery-1.10.2.min.js"></script>
+<script src="http://mrjsontable.azurewebsites.net/mrjsontable/scripts/mrjsontable.js"></script>
+<link href="http://mrjsontable.azurewebsites.net/mrjsontable/css/mrjsontable.css" rel="stylesheet" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -132,7 +139,7 @@ and used and assembled to help practice and improve my understanding of the topi
 <h3>
 <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-
+<div id="sedMrjson"></div>
 
 
 <!--
@@ -213,6 +220,8 @@ Typically the large crystals (phenocrysts) are visible while the smaller crystal
 	<h3> MINERALS </h3>
 </a>
 
+<p>There should be a paragraph about minerals here.</p>
+
 <img class="icc minerals" alt="Feldspar" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock5.jpg" />
 
 <img class="icc minerals" alt="Talc" src="http://faculty.icc.edu/easc111lab/labs/labb/minerals/rock4.jpg" />
@@ -261,6 +270,8 @@ Typically the large crystals (phenocrysts) are visible while the smaller crystal
 	<h3> IGNEOUS ROCKS </h3>
 </a>
 
+<p>There should be a paragraph about igneous rocks here.</p>
+
 <img class="icc igneous" alt="Basalt" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock42.jpg" />
 
 <img class="icc igneous"  alt="Granite" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock41.jpg" />
@@ -283,6 +294,8 @@ Rhyolite - water rich
 	<h3> Sedimentary </h3>
 </a>
 
+<p>There should be a paragraph about sedimentary rocks here.</p>
+
 <img class="icc sedimentary" alt="Coquina limestone" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock40.jpg" />
 
 <img class="icc sedimentary" alt="Conglomerate" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock48.jpg" />
@@ -302,6 +315,8 @@ Rhyolite - water rich
 	<h3> Metamorphic </h3>
 </a>
 
+<p>There should be a paragraph about metamorphic rocks here.</p>
+
 
 <img class="icc metamorphic" alt="Gneiss" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock55.jpg" />
 
@@ -314,10 +329,10 @@ Rhyolite - water rich
 <img class="icc metamorphic" alt="Slate" src="http://faculty.icc.edu/easc111lab/labs/labb/rocks/rock43.jpg" />
 
 
-<br/><hr/><br/>
+<!--br/><hr/><br/-->
 
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
 
 <!--h3>
 <a name="future-labs" class="anchor" href="#future-labs"><span class="octicon octicon-link"></span></a>Potential future labs</h3>
@@ -399,16 +414,55 @@ Texture of an igneous rock:
 - does NOT refer to the roughness or smoothness of the surface
 
 Pegmatitic 	- composed of very large crystals (larger than 2-3 cm). 
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/pegma1.jpg
+
 Phaneritic 	- composed of crystals which are large enough to see but smaller than pegmatitic texture, and the entire rock is composed of crystals. 
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/felsic1.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Interme1.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/mafic2.jpg
+
 Aphanitic  	- a fine grained texture but the crystals are too small to see. 
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Mafic1.jpg
+
 Porphyritic	- composed of crystals of two different sizes. 
 Typically the large crystals (phenocrysts) are visible while the smaller crystal are not (referred to as groundmass). 
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Interme2.jpg
+
 Glassy 		- rock is composed entirely of glass. Few, if any, crystals will be visible. --  the most readily recognized.  
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Glassy.jpg
+
+Vesicular?
 Vesicula	- The result is a "bubbly" appearance. formed when lava solidifies before gases are able to escape. 
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Vesic1.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Vesic2.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Vesic3.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Vesic4.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Vesic5.jpg
+
+
 Pyroclasti	- composed of volcanic fragments. These fragments or clasts can be very fine (ash) or coarse (lapilli) or very coarse (bombs and blocks).
 
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Pyro1.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Pyro2.jpg
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Igneous/images/Pyro3.jpg
+................................
 
 
+<img class="sedimentary texture clastic" alt="Gravel Clastic 1" src="http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/clastic1.jpg" />
+
+<img class="sedimentary texture clastic" alt="Silt Clastic 2" src="http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/clastic2.jpg" />
+
+<img class="sedimentary texture clastic" alt="Sand Clastic 3" src="http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/clastic3.jpg" />
+
+<img class="sedimentary texture clastic" alt="Sand Clastic 4" src="http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/clastic4.jpg" />
+
+<img class="sedimentary texture clastic" alt="Silt Clastic 5" src="http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/clastic5.jpg" />
+
+<img class="sedimentary texture chemical" alt="Gypsum Chemical 2" src="http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/chem2.jpg" />
+
+<img class="sedimentary texture chemical" alt="Quartz Chemical 1" src="http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/chem1.jpg" />
+
+http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/biol2.jpg
 
 -->
 
