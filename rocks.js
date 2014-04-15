@@ -343,7 +343,7 @@ Sulfur
 	crystalForm: "",
 	fracture: "",
 	hardness: 0,
-	other: "none",
+	other: "HCl acid",
 	"img1": "",
 	"img2": "",
 	"img3": "",
@@ -655,19 +655,173 @@ Biologic Rocks
 Biologic sedimentary rocks are which form as the result of the accumulation of organic material or biologic activity. Coal is usually obvious to most students even though few people seem to have ever actually examined it up close. The dark brown to black color is the most obvious charateristic. Coquina and limestone are both composed of calcite . Coquina is composed almost entirely of shell or fossil fragments. Limestone may or may not contain fossils fragments. Both will react to HCl. Limestone containing fossils is referred to as fossiliferous limestone.
 
 
-1 - 
-2 - 
-3 - 
-4 - 
+1 - Chemical Limestone
+2 - Coquina
+3 - Rock Gypsum ??
+4 - Fossiliferous Limestone
 5 - 
 6 - 
-7 - 
+7 - Rock Gypsum ??
 8 - 
-9 - 
+9 - Chemical Chert
 10 - 
 11 - 
 12 - 
-
+// ture if acid if has calcite in it!!
+{
+	"sampleNum": 1,
+	"sedimentaryName": "Limestone",
+	"texture": "Chemical",
+	"grainSize": "no grain size",
+	"acidReaction": true,
+	"hardness": 3,
+	"composition": ["calcite"],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed01.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup01.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed01.htm"
+},
+{
+	"sampleNum": 2,
+	"sedimentaryName": "Coquina",
+	"texture": "Biologic",
+	"grainSize": "no grain size",
+	"acidReaction": true,
+	"hardness": 3,
+	"composition": ["calcite", "almost entirely shell and skeletal fragments"], 
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed02b.jpg",
+	"img1close": "	http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup02a.jpg",
+	"img1closealt": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup02b.jpg",
+	"img2": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Sed02a.jpg",
+	"img2close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup02c.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed02.htm"
+},
+{
+	"sampleNum": 3,
+	"sedimentaryName": "Rock Gypsum",
+	"texture": "Chemical",
+	"grainSize": "no grain size",
+	"acidReaction": false,
+	"hardness": 2,
+	"composition": ["gypsum"],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed03.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed03.htm"
+},
+{
+	"sampleNum": 4,
+	"sedimentaryName": "Fossiliferous Limestone",
+	"texture": "Biologic",
+	"grainSize": "no grain size",
+	"acidReaction": true,
+	"hardness": 3,
+	"composition": ["calcite", "some shell and skeletal fragments"],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed04.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup04.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed04.htm"
+},
+{
+	"sampleNum": 5,
+	"sedimentaryName": "",
+	"texture": "",
+	"grainSize": "",
+	"acidReaction": false,
+	"hardness": null,
+	"composition": ["", ""],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed05.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup05.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed05.htm"
+},
+{
+	"sampleNum": 6,
+	"sedimentaryName": "",
+	"texture": "",
+	"grainSize": "",
+	"acidReaction": false,
+	"hardness": null,
+	"composition": ["", ""],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed06.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup06.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed06.htm"
+},
+{
+	"sampleNum": 7,
+	"sedimentaryName": "Rock Gypsum",
+	"texture": "Chemical",
+	"grainSize": "no grain size",
+	"acidReaction": false,
+	"hardness": 2,
+	"composition": ["gypsum"],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed07.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup07.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed07.htm"
+},
+{
+	"sampleNum": 8,
+	"sedimentaryName": "",
+	"texture": "",
+	"grainSize": "",
+	"acidReaction": false,
+	"hardness": null,
+	"composition": ["", ""],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed08.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup08.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed08.htm"
+},
+{
+	"sampleNum": 9,
+	"sedimentaryName": "Chert",
+	"texture": "Chemical",
+	"grainSize": "no grain size",
+	"acidReaction": false,
+	"hardness": 7,
+	"composition": ["silica (quartz)"],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed09.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup09.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed09.htm"
+},
+{
+	"sampleNum": 10,
+	"sedimentaryName": "",
+	"texture": "",
+	"grainSize": "",
+	"acidReaction": false,
+	"hardness": null,
+	"composition": ["", ""],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed10.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup10.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed10.htm"
+},
+{
+	"sampleNum": 11,
+	"sedimentaryName": "",
+	"texture": "",
+	"grainSize": "",
+	"acidReaction": false,
+	"hardness": null,
+	"composition": ["", ""],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed11.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup11.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed11.htm"
+},
+{
+	"sampleNum": 12,
+	"sedimentaryName": "",
+	"texture": "",
+	"grainSize": "",
+	"acidReaction": false,
+	"hardness": null,
+	"composition": ["", ""],
+	"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/images/Sed12.jpg",
+	"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Images/Closeup12.jpg",
+	"url": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/Labs/Sediment/Sed12.htm"
+},
+{
+	"sedimentaryName": "",
+	"texture": "",
+	"grainSize": "",
+	"acidReaction": false,
+	"hardness": 0,
+	"composition": ["", ""]
+},
 */
 
 
