@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script data-require="angular.js@*" data-semver="1.2.0-rc3-nonmin" src="http://code.angularjs.org/1.2.0-rc.3/angular.js"></script>
+  <script data-require="ng-table@*" data-semver="0.3.1" src="http://bazalt-cms.com/assets/ng-table/0.3.1/ng-table.js"></script>
+  <link data-require="ng-table@*" data-semver="0.3.1" rel="stylesheet" href="http://bazalt-cms.com/assets/ng-table/0.3.1/ng-table.css" />
+  <link data-require="bootstrap-css@*" data-semver="3.0.0" rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+
+  <script src="rockLists.js"></script>
+
+  <!--link rel="stylesheet" href="style.css" /-->
+  <style>
+
+    body {
+      padding: 10px !important;
+    }
+    th {font-size: x-small;}
+    .rockName {}
+    .compositionItem,
+    .grainSizeItem,
+    .hardnessItem {font-size: x-small;}
+    .sampleNumItem {width: 15px;}
+    .sedimentaryNameItem {width: 25px;} 
+    /*class="sedimentaryNameItem"  doesnt work */
+    /* class="sampleNumTitle"*/
+  </style>
+  <!--script src="script.js"></script-->
+
+  <script>
+var app = angular.module('main', ['ngTable']).
+controller('MetamorphicController', function($scope, $filter, ngTableParams) {
+    /*var data = [{name: "Moroni", age: 50},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34}];*/            
+var data = metamorphicRocks;
+
+    $scope.tableParams = new ngTableParams({
+        page: 1,            // show first page
+        count: 25,          // count per page
+        sorting: {
+            "metamorphicName": 'asc'     // initial sorting
+        }
+    }, {
+        total: data.length, // length of data
+        getData: function($defer, params) {
+            // use build-in angular filter
+            var orderedData = params.sorting() ?
+                                $filter('orderBy')(data, params.orderBy()) :
+                                data;
+
+            $defer.resolve(orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count()));
+        }
+    });
+});
+
+/*
+"foliated":
+"grainSize":
+"texture": 
+"composition":
+"metamorphicName":
+"parentRock": "Mudstone or shale",
+"uses":
+*/
+  </script>
+</head>
+
+<body ng-app="main" ng-controller="MetamorphicController">
+
+  <!--button ng-click="tableParams.sorting({})" class="btn btn-default pull-right">Clear sorting</button-->
+
+  <p><strong>Sorting:</strong> {{tableParams.sorting()|json}}
+
+    <table ng-table="tableParams" class="table">
+      <tr ng-repeat="rock in $data">
+        
+        <td data-title="'Rock Name'" sortable="'metamorphicName'" >
+          {{rock.metamorphicName}}
+          <img class="thumbnail" src="{{rock.img1}}" />
+        </td>
+
+        <!--td data-title="'Image'" >
+          <img class="thumbnail" src="{{rock.img1}}" />
+        </td-->
+
+        <td data-title="'Rock Texture'" sortable="'texture'" >
+          {{rock.texture}}
+          <br>
+          <!--img class="thumbnail" src="{{rock.img1close}}" /-->
+          <span class="compositionItem">{{rock.composition}}</span>
+        </td>
+        
+        <td data-title="'Grain Size'" sortable="'grainSize'" class="grainSizeItem">
+          {{rock.grainSize}}
+        </td>
+        
+      </tr>
+    </table>
+
+</body>
+
+</html>
