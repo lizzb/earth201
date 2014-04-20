@@ -266,7 +266,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "SERPENTINITE",
 "parentRock": "Basalt, gabbro, or ultramafic igneous rocks",
 "uses":"Decorative stone",
-"img1": ""
+"img1": "" //............................
 },
 {
 "foliated": "NONFOLIATED",
@@ -276,7 +276,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "SOAPSTONE",
 "parentRock": "Basalt, gabbro, or ultramafic igneous rocks",
 "uses":"Art carvings, electrical insulators, talcum powder",
-"img1": ""
+"img1": "" //......................
 },
 {
 "foliated": "NONFOLIATED",
@@ -286,7 +286,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "QUARTZITE",
 "parentRock": "Sandstone",
 "uses":"Construction stone, decorative stone",
-"img1": ""
+"img1": "images/Quartzite.png"
 },
 {
 "foliated": "NONFOLIATED",
@@ -296,7 +296,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "MARBLE",
 "parentRock": "Limestone",
 "uses":"Art carvings, construction stone, decorative stone, source of lime for agriculture",
-"img1": ""
+"img1": "images/Marble.png"
 },
 {
 "foliated": "NONFOLIATED",
