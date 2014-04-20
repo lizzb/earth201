@@ -16,10 +16,12 @@
       padding: 10px !important;
     }
     th {font-size: x-small;}
+    .usesItem {font-size: x-small;}
     .rockName {}
-    .compositionItem,
+    .textureItem {font-size: small; color: #999;}
+    .compositionItem {font-size: small;}
     .grainSizeItem,
-    .hardnessItem {font-size: x-small;}
+    .hardnessItem {font-size: small; font-weight: bold;}
     .sampleNumItem {width: 15px;}
     .sedimentaryNameItem {width: 25px;} 
     /*class="sedimentaryNameItem"  doesnt work */
@@ -99,15 +101,22 @@ var data = metamorphicRocks;
         </td-->
 
         <td data-title="'Rock Texture'" sortable="'texture'" >
-          {{rock.texture}}
+          <span class="grainSizeItem">{{rock.grainSize}}</span>
+          <br>
+          <span class="textureItem"><em>{{rock.texture}}</em></span>
           <br>
           <!--img class="thumbnail" src="{{rock.img1close}}" /-->
           <span class="compositionItem">{{rock.composition}}</span>
-        </td>
+          </td>
+          <td data-title="'Uses'">
+          <span class="usesItem">{{rock.uses}}</span>
+          </td>
+          
         
-        <td data-title="'Grain Size'" sortable="'grainSize'" class="grainSizeItem">
+        
+        <!--td data-title="'Grain Size'" sortable="'grainSize'" class="grainSizeItem">
           {{rock.grainSize}}
-        </td>
+        </td-->
         
       </tr>
     </table>
