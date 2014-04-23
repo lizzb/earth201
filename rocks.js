@@ -644,15 +644,43 @@ biologic
 
 Clastic Rocks
 
-Clastic sedimentary rocks contain clasts. These are fragments or pieces of rock or minerals. The composition of clastic sedimentary rocks is divided into three types - clay/silt, sand and gravel. Clay and silt are less than 1/16 mm. These are not visible to the unaided eye. Sand is clasts between 1/16 and 2 mm in size, and gravel is greater than 2 mm.
+Clastic sedimentary rocks contain clasts. 
+These are fragments or pieces of rock or minerals. 
+The composition of clastic sedimentary rocks is divided 
+into three types - clay/silt, sand and gravel. 
+Clay and silt are less than 1/16 mm. These are not visible to the unaided eye. 
+Sand is clasts between 1/16 and 2 mm in size, 
+and gravel is greater than 2 mm.
 
 Chemical Rocks
 
-Chemical sedimentary rocks are identified by identifying the mineral from which they are composed. In this lab there are four minerals that need to be identified - quartz, halite, gypsum and calcite. Quartz has a hardness of 7 and is very difficult to scratch, even with a good quality knife blade. Gypsum is relatively soft (Hardness =2) and can be scratched easily with a fingernail. Halite is common table salt and is most easily identified by taste. However, this is not a sensible practice in a large lab with many different people handling the samples. Halite has a hardness of 2.5 and cannot be scratched by a fingernail (unpolished fingernail). Calcite readily reacts with a small drop of HCl.
+Chemical sedimentary rocks are identified by 
+identifying the mineral from which they are composed. 
+In this lab there are four minerals that need to 
+be identified - quartz, halite, gypsum and calcite. 
+Quartz has a hardness of 7 and is very difficult to scratch, 
+even with a good quality knife blade. 
+Gypsum is relatively soft (Hardness =2) and can be scratched easily 
+with a fingernail. 
+Halite is common table salt and is most easily identified by taste. 
+However, this is not a sensible practice in a large lab 
+with many different people handling the samples. 
+Halite has a hardness of 2.5 and cannot be scratched 
+by a fingernail (unpolished fingernail). 
+Calcite readily reacts with a small drop of HCl.
 
 Biologic Rocks
 
-Biologic sedimentary rocks are which form as the result of the accumulation of organic material or biologic activity. Coal is usually obvious to most students even though few people seem to have ever actually examined it up close. The dark brown to black color is the most obvious charateristic. Coquina and limestone are both composed of calcite . Coquina is composed almost entirely of shell or fossil fragments. Limestone may or may not contain fossils fragments. Both will react to HCl. Limestone containing fossils is referred to as fossiliferous limestone.
+Biologic sedimentary rocks are which form as the result 
+of the accumulation of organic material or biologic activity. 
+Coal is usually obvious to most students even though few people 
+seem to have ever actually examined it up close. 
+The dark brown to black color is the most obvious charateristic. 
+Coquina and limestone are both composed of calcite . 
+Coquina is composed almost entirely of shell or fossil fragments. 
+Limestone may or may not contain fossils fragments. 
+Both will react to HCl. 
+Limestone containing fossils is referred to as fossiliferous limestone.
 
 
  1 - Chemical Limestone (Calcite Chemical texture)

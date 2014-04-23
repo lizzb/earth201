@@ -1,3 +1,7 @@
+//                                      //
+//            SEDIMENTARY ROCKS         //
+//                                      //
+// from http://facweb.bhc.edu/academics/science/harwoodr/geol101
 var sedimentaryRocks = [
 {
   "sampleNum": 1,
@@ -147,7 +151,170 @@ var sedimentaryRocks = [
 }
 ];
 
-var metamorphicRocks = [ //var data = [
+
+
+//                                      //
+//            METAMORPHIC ROCKS         //
+//                                      //
+// from http://facweb.bhc.edu/academics/science/harwoodr/geol101
+var metamorphicRocksFromBHC = [
+{
+"sampleNum": 1,
+"rockName": "Gneiss",
+"parentRock": "schist",
+"composition": ["feldspar", "mica", "quartz"],
+"texture": "foliated",
+"foliation": "gneissic banding",
+"img1": "facweb-bhc/gneiss.jpg", //"http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta01.jpg", // gneiss.jpg
+"img1close": "facweb-bhc/gneiss-close1.jpg", //"http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup01.jpg",
+"reactHCl": false,
+"hardness": null
+},
+{
+"sampleNum": 2,
+"rockName": "Schist",
+"parentRock": "slate",
+"composition": ["mica", "quartz"],
+"texture": "foliated",
+"foliation": "schistose",
+"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta02.jpg", //schist2.jpg
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup02.jpg",
+"img2close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup02a.jpg",
+"reactHCl": false,
+"hardness": null
+},
+{
+"sampleNum": 3,
+"rockName": "Marble",
+"parentRock": "Limestone",
+"composition": ["calcite"],
+"texture": "non-foliated",
+"foliation": "(none)",
+"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta03.jpg", // marble.jpg
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup03.jpg",
+"reactHCl": true,
+"hardness": 3
+},
+{
+"sampleNum": 4,
+"rockName": "slate",
+"parentRock": "mudstone",
+"composition": ["mica"],
+"texture": "foliated",
+"foliation": "slaty",
+"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta04.jpg", //slate.jpg
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup04.jpg",
+"reactHCl": false,
+"hardness": null
+},
+{
+"sampleNum": 5,
+"rockName": "Schist",
+"parentRock": "Slate",
+"composition": ["mica", "quartz"],
+"texture": "foliated",
+"foliation": "schistose",
+"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta05.jpg", //schist5.jpg
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup05.jpg",
+"img2close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup05a.jpg",
+"reactHCl": false,
+"hardness": null
+},
+{
+"sampleNum": 6,
+"rockName": "quartzite",
+"parentRock": "sandstone",
+"composition": ["quartz"],
+"texture": "non-foliated",
+"foliation": "none",
+"img1": "facweb-bhc/quarzite.jpg", //"http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta06.jpg", //quartzite.jpg
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup06.jpg",
+"img2close": "",
+"reactHCl": false,
+"hardness": 7
+},
+{
+"sampleNum": 7,
+"rockName": "phyllite",
+"parentRock": "mudstone",
+"composition": ["quartz", "mica", "chlorite"],
+"texture": "foliated",
+"foliation": "phyllitic",
+"img1": "facweb-bhc/phyllite.jpg", //"http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta07.jpg", //phyllite.jpg
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup07.jpg",
+"img2close": "",
+"reactHCl": false,
+"hardness": 7
+},
+{
+"sampleNum": 8,
+"rockName": "anthracite coal",
+"parentRock": "bituminous coal",
+"composition": ["carbon"],
+"texture": "Non-foliated",
+"foliation": "(none)",
+"img1": "facweb-bhc/anthraciteCoal.jpg", //"http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta08.jpg", //anthraciteCoal.jpg
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup08.jpg",
+"img2close": "",
+"reactHCl": false,
+"hardness": 7
+}
+];
+
+/*
+{
+"sampleNum": ,
+"rockName": "",
+"parentRock": "",
+"composition": ["", ""],
+"texture": "foliated",
+"foliation": "",
+"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta05.jpg",
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup05.jpg",
+"img2close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup05a.jpg",
+"reactHCl": false,
+"hardness": null
+}
+
+
+
+http://classconnection.s3.amazonaws.com/311/flashcards/815311/jpg/metamorphic_rock_chart1329975367282.jpg
+
+{
+“sampleNum”: 5,
+“rockName”: Schist,
+“parentRock”: Slate,
+“composition”: [“mica”, “quartz”],
+“texture”: “foliated”,
+“foliation”: “schistose”,
+“img1”: “”,
+“img1close”: “”,
+“img2close”: “”,
+“reactHCl”: false,
+“hardness”: null
+}
+
+
+
+
+Variable Grid System (Fluid Version).
+  Learn more ~ http://www.spry-soft.com/grids/
+  Based on 960 Grid System - 
+  http://960.gs/ & 960 Fluid - http://www.designinfluences.com/
+  */
+
+
+
+
+
+
+
+
+
+
+
+//var data = [
+var metamorphicRocks = [ 
 {
 "foliated": "FOLIATED",
 "grainSize":"Fine-grained or no visible grains",
@@ -156,7 +323,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "SLATE",
 "parentRock": "Mudstone or shale",
 "uses":"Roofing slate, table tops, floor tile, and blackboards",
-"img1": "images/Slate.png"
+"img1": "images/labman/Slate.png"
 },
 {
 "foliated": "FOLIATED",
@@ -166,7 +333,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "PHYLLITE",
 "parentRock": "Mudstone, shale, or slate",
 "uses":"Construction stone, decorative stone, sources of gemstones",
-"img1": "images/Phyllite.png"
+"img1": "images/labman/Phyllite.png"
 },
 {
 "foliated": "FOLIATED",
@@ -196,7 +363,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "Muscovite schist - SCHIST",
 "parentRock": "Mudstone, shale, slate, or phyllite",
 "uses":"",
-"img1": "images/MuscoviteSchist.png"
+"img1": "images/labman/MuscoviteSchist.png"
 },
 {
 "foliated": "FOLIATED",
@@ -226,7 +393,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "AMPHIBIOLITE",
 "parentRock": "Basalt, gabbro, or ultramafic igneous rocks",
 "uses":"Construction stone",
-"img1": ""
+"img1": "" //...................
 },
 {
 "foliated": "FOLIATED OR NONFOLIATELD ",
@@ -236,7 +403,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "ECLOGITE",
 "parentRock": "Basalt, gabbro",
 "uses":"Titanium ore",
-"img1": ""
+"img1": "" //........................
 },
 {
 "foliated": "NONFOLIATED",
@@ -246,7 +413,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "ANTHRACITE COAL",
 "parentRock": "Peat, lignite, bituminous coal",
 "uses":"Highest grade coal for clean burning fossil fuel",
-"img1": "images/AnthraciteCoal.png"
+"img1": "images/labman/AnthraciteCoal.png"
 },
 {
 "foliated": "NONFOLIATED",
@@ -286,7 +453,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "QUARTZITE",
 "parentRock": "Sandstone",
 "uses":"Construction stone, decorative stone",
-"img1": "images/Quartzite.png"
+"img1": "images/labman/Quartzite.png"
 },
 {
 "foliated": "NONFOLIATED",
@@ -296,7 +463,7 @@ var metamorphicRocks = [ //var data = [
 "metamorphicName": "MARBLE",
 "parentRock": "Limestone",
 "uses":"Art carvings, construction stone, decorative stone, source of lime for agriculture",
-"img1": "images/Marble.png"
+"img1": "images/labman/Marble.png"
 },
 {
 "foliated": "NONFOLIATED",
@@ -309,3 +476,72 @@ var metamorphicRocks = [ //var data = [
 "img1": ""
 }
 ];
+
+var metamorphicTextures = [{
+"isFoliated": true,
+"foliation": "Slaty",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur10.jpg"
+},
+{
+"isFoliated": true,
+"foliation": "Phyllitic",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur11.jpg"
+},
+{
+"isFoliated": true,
+"foliation": "Schistose",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur09.jpg"
+},
+{
+"isFoliated": true,
+"foliation": "Gneissic Banding",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur02.jpg"
+},
+{
+"isFoliated": true,
+"foliation": "Gneissic Banding",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur01.jpg"
+},
+{
+"isFoliated": true,
+"foliation": "Gneissic Banding",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur08.jpg"
+},
+{
+"isFoliated": false,
+"foliation": "none",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur04.jpg"
+},
+{
+"isFoliated": false,
+"foliation": "none",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Textur05.jpg"
+},
+{
+"isFoliated": false,
+"foliation": "none",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Textur06.jpg"
+},
+{
+"isFoliated": false,
+"foliation": "none",
+"textureImg": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/textur07.jpg"
+}
+];
+
+/*
+{
+"sampleNum": ,
+"rockName": "",
+"parentRock": "",
+"composition": ["", ""],
+"texture": "foliated",
+"foliation": "",
+"img1": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/images/Meta05.jpg",
+"img1close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup05.jpg",
+"img2close": "http://facweb.bhc.edu/academics/science/harwoodr/geol101/labs/metamorf/Images/Closeup05a.jpg",
+"reactHCl": false,
+"hardness": null
+},
+*/
+
