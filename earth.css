@@ -1,0 +1,15 @@
+
+    body {
+      padding: 10px !important;
+    }
+    th {font-size: x-small;}
+    .usesItem {font-size: x-small;}
+    .rockName {}
+    .textureItem {font-size: small; color: #999;}
+    .compositionItem {font-size: small;}
+    .grainSizeItem,
+    .hardnessItem {font-size: small; font-weight: bold;}
+    .sampleNumItem {width: 15px;}
+    .sedimentaryNameItem {width: 25px;} 
+    /*class="sedimentaryNameItem"  doesnt work */
+    /* class="sampleNumTitle"*/

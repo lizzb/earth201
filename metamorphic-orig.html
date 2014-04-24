@@ -9,11 +9,46 @@
 
   <script src="rockLists.js"></script>
 
+  <!--link rel="stylesheet" href="style.css" /-->
+  <style>
+
+    body {
+      padding: 10px !important;
+    }
+    th {font-size: x-small;}
+    .usesItem {font-size: x-small;}
+    .rockName {}
+    .textureItem {font-size: small; color: #999;}
+    .compositionItem {font-size: small;}
+    .grainSizeItem,
+    .hardnessItem {font-size: small; font-weight: bold;}
+    .sampleNumItem {width: 15px;}
+    .sedimentaryNameItem {width: 25px;} 
+    /*class="sedimentaryNameItem"  doesnt work */
+    /* class="sampleNumTitle"*/
+  </style>
+  <!--script src="script.js"></script-->
 
   <script>
 var app = angular.module('main', ['ngTable']).
 controller('MetamorphicController', function($scope, $filter, ngTableParams) {
-        
+    /*var data = [{name: "Moroni", age: 50},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34},
+                {name: "Tiancum", age: 43},
+                {name: "Jacob", age: 27},
+                {name: "Nephi", age: 29},
+                {name: "Enos", age: 34}];*/            
 var data = metamorphicRocks;
 
     $scope.tableParams = new ngTableParams({
@@ -35,7 +70,15 @@ var data = metamorphicRocks;
     });
 });
 
-
+/*
+"foliated":
+"grainSize":
+"texture": 
+"composition":
+"metamorphicName":
+"parentRock": "Mudstone or shale",
+"uses":
+*/
   </script>
 </head>
 
